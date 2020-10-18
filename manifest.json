@@ -1,0 +1,14 @@
+{
+    "name": "Collab Video Finder",
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "description": "A Firefox Extension to open lecture videos in a new tab.",
+    "browser_action": {
+      "default_popup": "browser_action.html"
+    },
+    "icons":{
+      "48":"arrow-up-right-square-fill.svg",
+      "96":"arrow-up-right-square-fill.svg"
+    },
+    "permissions":["activeTab"]
+}
