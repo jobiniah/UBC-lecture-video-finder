@@ -1,0 +1,21 @@
+name: web-ext Action for Firefox Add-ons
+  # You may pin to the exact commit or the version.
+  # uses: kewisch/action-web-ext@a28b4ba2f491cc36c67a714a716ca54218440056
+  uses: kewisch/action-web-ext@v1.0
+  with:
+    # The web-ext command to run (lint, build, sign)
+    cmd: 
+    # The source xpi or path
+    source: # optional, default is .
+    # The path to put artifacts, e.g. from build or signing
+    artifacts: # optional, default is web-ext-artifacts
+    # More debugging fore certain steps
+    verbose: # optional
+    # [lint+sign] The target channel
+    channel: # optional, default is unlisted
+    # [sign] The API key used for signing
+    apiKey: user:16369006:163 # optional
+    # [sign] The API secret used for signing
+    apiSecret: 4daf2bab3df92c7446511d9f2dbed9a21152f17d36bf9708c685a4974d72bb4e # optional
+    # [sign] The URL of the signing API, defaults to AMO production
+    apiUrlPrefix: # optional, default is https://addons.mozilla.org/api/v3
