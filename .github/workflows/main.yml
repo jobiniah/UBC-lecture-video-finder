@@ -1,7 +1,7 @@
 name: web-ext Action for Firefox Add-ons
   # You may pin to the exact commit or the version.
   # uses: kewisch/action-web-ext@a28b4ba2f491cc36c67a714a716ca54218440056
-  uses: kewisch/action-web-ext@v1.0
+  uses: jobiniah/UBC-lecture-video-finder@a3dff70cf80401f0277386b7c591df54d9ac921e
   with:
     # The web-ext command to run (lint, build, sign)
     cmd: 
